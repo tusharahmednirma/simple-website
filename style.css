@@ -41,6 +41,8 @@
     align-items: center;
     background-image: url('img/background.png');
     background: linear-gradient(45deg,rgb(23, 22, 22),black);
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
@@ -66,3 +68,36 @@
     
     
 }
+.picture{
+    width:300px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+}
+
+.about-us{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pera{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
